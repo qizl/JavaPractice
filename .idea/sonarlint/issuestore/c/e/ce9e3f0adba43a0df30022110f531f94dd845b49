@@ -1,0 +1,27 @@
+
+0
+java:S1220""Move this file to a named package.
+H
+java:S6212"/Declare this local variable with "var" instead.(†¾àÿÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(…‰¹ìşÿÿÿÿ
+T	java:S125"<This block of commented-out lines of code should be removed.(ºÏÉØúÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ
+C
+java:S6212"/Declare this local variable with "var" instead.(œğ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(«‹Îõ
+C
+java:S6212"/Declare this local variable with "var" instead.(ò‚å
+O	java:S125"<This block of commented-out lines of code should be removed.(”œÚÖ
+K	java:S106"9Replace this use of System.out or System.err by a logger.(ÜÄ™g
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(•·Ãšüÿÿÿÿ
+K	java:S106"9Replace this use of System.out or System.err by a logger.(ÜÄ™g
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(‘Ô¶Œúÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(æ÷â£
+O	java:S125"<This block of commented-out lines of code should be removed.(Ùğó
+T	java:S125"<This block of commented-out lines of code should be removed.(ªŸåŞşÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(Ã”…ªûÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(ıĞÀ©ùÿÿÿÿ
+T	java:S125"<This block of commented-out lines of code should be removed.(ô”ş¾ÿÿÿÿÿ
+C
+java:S6212"/Declare this local variable with "var" instead.(‘Œ€ß
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(æ–İ€ÿÿÿÿÿ

@@ -1,0 +1,21 @@
+
+0
+java:S1220""Move this file to a named package.
+I
+java:S1854"5Remove this useless assignment to local variable "s".(ÈÅ
+H
+java:S6212"/Declare this local variable with "var" instead.(§ó–Ñúÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(­Ø½Ç
+H
+java:S6212"/Declare this local variable with "var" instead.(à§ÆÇøÿÿÿÿ
+H
+java:S6212"/Declare this local variable with "var" instead.(Ùîœıÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(ŒŸ¼¥üÿÿÿÿ
+C
+java:S6212"/Declare this local variable with "var" instead.(ŞéÈ
+H
+java:S6212"/Declare this local variable with "var" instead.(·Ä©øÿÿÿÿ
+H
+java:S6212"/Declare this local variable with "var" instead.(·Ä©øÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(ïŸí¹
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(š—°øÿÿÿÿ

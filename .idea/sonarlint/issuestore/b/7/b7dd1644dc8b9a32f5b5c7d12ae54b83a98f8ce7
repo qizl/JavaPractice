@@ -1,0 +1,16 @@
+
+0
+java:S1220""Move this file to a named package.
+C
+java:S6212"/Declare this local variable with "var" instead.(Ô¸ªä
+H
+java:S6212"/Declare this local variable with "var" instead.(åš‡ïûÿÿÿÿ
+C
+java:S6212"/Declare this local variable with "var" instead.(Û»½³
+H
+java:S6212"/Declare this local variable with "var" instead.(åš‡ïûÿÿÿÿ
+C
+java:S6212"/Declare this local variable with "var" instead.(Û»½³
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(šÿÅÛýÿÿÿÿ
+O	java:S125"<This block of commented-out lines of code should be removed.(÷³œ‰
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(ÞžÒ—üÿÿÿÿ

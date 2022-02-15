@@ -1,0 +1,45 @@
+
+0
+java:S1220""Move this file to a named package.
+N
+java:S1854"5Remove this useless assignment to local variable "f".(¬µíùÿÿÿÿ
+N
+java:S1854"5Remove this useless assignment to local variable "m".(Ô½œıÿÿÿÿ
+M
+java:S1854"9Remove this useless assignment to local variable "total".(“Ş„×
+O
+java:S1854"6Remove this useless assignment to local variable "b1".(˜ËÁìüÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(—Ş“
+C
+java:S6212"/Declare this local variable with "var" instead.(“Ş„×
+C
+java:S6212"/Declare this local variable with "var" instead.(¤†•™
+C
+java:S6212"/Declare this local variable with "var" instead.(ÿ¢‘Š
+B
+java:S6212"/Declare this local variable with "var" instead.(íç¾L
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(Ã”…ªûÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(æ–İ€ÿÿÿÿÿ
+H
+java:S6212"/Declare this local variable with "var" instead.(‘ñ—Æıÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(êğ»ıÿÿÿÿ
+H
+java:S6212"/Declare this local variable with "var" instead.(Ô½œıÿÿÿÿ
+T	java:S125"<This block of commented-out lines of code should be removed.(–ª²Ëÿÿÿÿÿ
+H
+java:S6212"/Declare this local variable with "var" instead.(¬µíùÿÿÿÿ
+T	java:S125"<This block of commented-out lines of code should be removed.(ÒÔ¥ûÿÿÿÿÿ
+H
+java:S6212"/Declare this local variable with "var" instead.(³”º¶üÿÿÿÿ
+Q	java:S106"9Replace this use of System.out or System.err by a logger.(Èâäıÿÿÿÿ
+C
+java:S6212"/Declare this local variable with "var" instead.(’ãÙÆ
+T	java:S125"<This block of commented-out lines of code should be removed.(Õ‰øÿÿÿÿ
+L	java:S106"9Replace this use of System.out or System.err by a logger.(Áß‡Ü
+>
+java:S1481"*Remove this unused "total" local variable.(“Ş„×
+?
+java:S1481"&Remove this unused "m" local variable.(Ô½œıÿÿÿÿ
+?
+java:S1481"&Remove this unused "f" local variable.(¬µíùÿÿÿÿ
