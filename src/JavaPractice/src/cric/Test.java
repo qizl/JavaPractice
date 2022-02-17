@@ -1,6 +1,9 @@
 package cric;
 
-import cric.tp12.DateFormatTest;
+import cric.tp13.FileTest;
+import cric.tp15.JDBCTest;
+
+import java.io.File;
 
 public class Test {
     public static void main(String[] args) {
@@ -53,8 +56,20 @@ public class Test {
 //        dateFormatTest.dateFomart();
 
         // tp13 Java输入输出流
+//        var fileTest = new FileTest();
+//        fileTest.copyFile();
+
+//        var file = new File("doc\\test\\write.txt");
+//        if (file.exists())
+//            file.delete();
+//        for (var i = 0; i < 100; i++)
+//            fileTest.writeText(file, "hello" + i + "~");
+
         // tp15 Java数据库编程JDBC(1)
-        // tp15 Java数据库编程JDBC(2)
+        var jdbcTest = new JDBCTest();
+        jdbcTest.run();
+
+        // tp16 Java数据库编程JDBC(2)
         // tp17 网络编程
         // tp18 常用工具类
     }
