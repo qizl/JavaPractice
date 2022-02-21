@@ -12,6 +12,11 @@ import java.util.Date;
  */
 public class DateTimeUtil {
     public static String getDateTimeNow() {
-        return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
+        return getDateTime(new Date());
+    }
+
+    public static String getDateTime(Date date) {
+        if (date == null) return "-";
+        else return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(date);
     }
 }

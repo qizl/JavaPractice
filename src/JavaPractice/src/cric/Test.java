@@ -1,12 +1,11 @@
 package cric;
 
-import cric.tp13.FileTest;
-import cric.tp15.JDBCTest;
+import util.DbUtil;
 
-import java.io.File;
+import java.sql.SQLException;
 
 public class Test {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
         // tp01 HelloWorld
 //        HelloWorld.part3Read();
 
@@ -66,10 +65,20 @@ public class Test {
 //            fileTest.writeText(file, "hello" + i + "~");
 
         // tp15 Java数据库编程JDBC(1)
-        var jdbcTest = new JDBCTest();
-        jdbcTest.run();
+//        var jdbcTest = new JDBCTest();
+//        jdbcTest.run();
+//        jdbcTest.insert("aqiang");
 
         // tp16 Java数据库编程JDBC(2)
+//        var dbUtil = new DbUtil();
+//        var sqlUpdate = "update users set createtime=getdate() where name='zhangsan3'";
+//        var r = dbUtil.update(sqlUpdate);
+//        System.out.println("数据更新" + (r ? "成功" : "失败") + "！");
+
+//        var sqlRead = "select * from users order by createtime";
+//        var resultSet = dbUtil.read(sqlRead);
+//        System.out.println("数据查询完成！");
+
         // tp17 网络编程
         // tp18 常用工具类
     }
