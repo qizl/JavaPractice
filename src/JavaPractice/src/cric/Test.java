@@ -1,11 +1,19 @@
 package cric;
 
+import cric.tp18.StringTest;
 import util.DbUtil;
 
 import java.sql.SQLException;
 
 public class Test {
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args) {
+
+    }
+
+    /*
+     * Cric教程练习
+     */
+    private static void cricTest() throws SQLException {
         // tp01 HelloWorld
 //        HelloWorld.part3Read();
 
@@ -81,5 +89,7 @@ public class Test {
 
         // tp17 网络编程
         // tp18 常用工具类
+        var stringTest = new StringTest();
+        stringTest.test();
     }
 }
