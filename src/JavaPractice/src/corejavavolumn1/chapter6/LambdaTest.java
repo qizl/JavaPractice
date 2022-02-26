@@ -1,8 +1,10 @@
 package corejavavolumn1.chapter6;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
-import java.util.List;
+
+import static java.util.Comparator.*;
 
 /**
  * description: add a description
@@ -33,6 +35,21 @@ public class LambdaTest {
 
     private void repeat(int n, Runnable action) {
         for (int i = 0; i < n; i++) action.run();
+    }
+
+    public void testComparing() {
+        var list = new Person[4];
+        list[0] = new Person("l1", "f1");
+        list[1] = new Person("l333", "f333");
+        list[2] = new Person("l22", "f22");
+        list[3] = new Person(null, null);
+//        Arrays.sort(list, Comparator.comparing(Person::getName));
+//        Arrays.sort(list, Comparator.comparing(Person::getName).reversed());
+//        Arrays.sort(list, Comparator.comparing(Person::getName, (s1, s2) -> Integer.compare(s1.length(), s2.length())));
+//        Arrays.sort(list, Comparator.comparing(Person::getName, comparingInt(String::length)));
+//        Arrays.sort(list, Comparator.comparingInt(p -> p.getName().length()));
+//        Arrays.sort(list, comparing(Person::getFirstName, nullsFirst(naturalOrder())));
+//        Arrays.sort(list, comparing(Person::getFirstName, nullsFirst(reverseOrder())));
     }
 
     private void log(String str) {

@@ -19,6 +19,7 @@ public class Test {
         var test = new LambdaTest();
 //        test.testComparator();
 //        test.testListRemove();
-        test.testFunction();
+//        test.testFunction();
+        test.testComparing();
     }
 }
