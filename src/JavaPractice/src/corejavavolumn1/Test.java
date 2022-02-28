@@ -1,6 +1,9 @@
 package corejavavolumn1;
 
 import corejavavolumn1.chapter6.LambdaTest;
+import corejavavolumn1.chapter6.TalkingClock;
+
+import java.util.Scanner;
 
 /**
  * description: add a description
@@ -16,10 +19,19 @@ public class Test {
 //        test.test(3);
 
         // chapter6
-        var test = new LambdaTest();
+//        var test = new LambdaTest();
 //        test.testComparator();
 //        test.testListRemove();
 //        test.testFunction();
-        test.testComparing();
+//        test.testComparing();
+
+        var clock = new TalkingClock(1000, true);
+//        TalkingClock.TimePrinter listener = clock.new TimePrinter();
+        clock.start();
+
+        var in = new Scanner(System.in);
+        System.out.println("just wait...");
+        var input = in.nextLine();
+        System.out.println("exit with " + input);
     }
 }
