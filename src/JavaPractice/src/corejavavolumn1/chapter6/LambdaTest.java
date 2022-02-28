@@ -49,7 +49,7 @@ public class LambdaTest {
 //        Arrays.sort(list, Comparator.comparing(Person::getName, comparingInt(String::length)));
 //        Arrays.sort(list, Comparator.comparingInt(p -> p.getName().length()));
 //        Arrays.sort(list, comparing(Person::getFirstName, nullsFirst(naturalOrder())));
-//        Arrays.sort(list, comparing(Person::getFirstName, nullsFirst(reverseOrder())));
+        Arrays.sort(list, comparing(Person::getFirstName, nullsFirst(reverseOrder())));
     }
 
     private void log(String str) {
