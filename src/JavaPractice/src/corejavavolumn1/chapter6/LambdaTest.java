@@ -1,5 +1,6 @@
 package corejavavolumn1.chapter6;
 
+import javax.management.modelmbean.InvalidTargetObjectTypeException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -50,6 +51,15 @@ public class LambdaTest {
 //        Arrays.sort(list, Comparator.comparingInt(p -> p.getName().length()));
 //        Arrays.sort(list, comparing(Person::getFirstName, nullsFirst(naturalOrder())));
         Arrays.sort(list, comparing(Person::getFirstName, nullsFirst(reverseOrder())));
+    }
+
+    public void getClassName() {
+        this.log("class name is " + getClass());
+    }
+
+    public static void getStaticClassName() {
+        System.out.println("class name is " + new Object() {
+        }.getClass().getEnclosingClass());
     }
 
     private void log(String str) {
