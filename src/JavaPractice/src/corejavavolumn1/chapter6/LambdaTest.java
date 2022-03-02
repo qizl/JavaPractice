@@ -58,8 +58,7 @@ public class LambdaTest {
     }
 
     public static void getStaticClassName() {
-        System.out.println("class name is " + new Object() {
-        }.getClass().getEnclosingClass());
+        System.out.println("class name is " + new Object() {}.getClass().getEnclosingClass());
     }
 
     private void log(String str) {
