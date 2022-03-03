@@ -3,8 +3,11 @@ package corejavavolumn1;
 import corejavavolumn1.chapter6.ArrayAlg;
 import corejavavolumn1.chapter6.LambdaTest;
 import corejavavolumn1.chapter6.TalkingClock;
+import corejavavolumn1.chapter6.serviceLoader.Cipher;
+import corejavavolumn1.chapter6.serviceLoader.CipherLoader;
 
 import java.util.Scanner;
+import java.util.ServiceLoader;
 
 /**
  * description: add a description
@@ -46,5 +49,7 @@ public class Test {
 //        d[1] = 1;
 //        d[2] = 3;
 //        var r = ArrayAlg.minMax(d);
+
+        CipherLoader.test();
     }
 }
