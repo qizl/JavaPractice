@@ -3,6 +3,7 @@ package corejavavolumn1;
 import corejavavolumn1.chapter6.ArrayAlg;
 import corejavavolumn1.chapter6.LambdaTest;
 import corejavavolumn1.chapter6.TalkingClock;
+import corejavavolumn1.chapter6.proxy.ProxyTest;
 import corejavavolumn1.chapter6.serviceLoader.Cipher;
 import corejavavolumn1.chapter6.serviceLoader.CipherLoader;
 
@@ -50,6 +51,8 @@ public class Test {
 //        d[2] = 3;
 //        var r = ArrayAlg.minMax(d);
 
-        CipherLoader.test();
+//        CipherLoader.test();
+
+        ProxyTest.test();
     }
 }
