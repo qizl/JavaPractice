@@ -1,5 +1,6 @@
 package corejavavolumn1;
 
+import corejavavolumn1.chapter3.IntegerCacheTest;
 import corejavavolumn1.chapter6.ArrayAlg;
 import corejavavolumn1.chapter6.LambdaTest;
 import corejavavolumn1.chapter6.TalkingClock;
@@ -22,6 +23,9 @@ public class Test {
         // chapter3
 //        var test = new SwitchTest();
 //        test.test(3);
+
+        var test = new IntegerCacheTest();
+        test.compareNumber();
 
         // chapter6
 //        var test = new LambdaTest();
@@ -53,6 +57,6 @@ public class Test {
 
 //        CipherLoader.test();
 
-        ProxyTest.test();
+//        ProxyTest.test();
     }
 }
