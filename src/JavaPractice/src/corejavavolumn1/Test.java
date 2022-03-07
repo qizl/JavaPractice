@@ -24,8 +24,9 @@ public class Test {
 //        var test = new SwitchTest();
 //        test.test(3);
 
-        var test = new IntegerCacheTest();
-        test.compareNumber();
+//        var test = new IntegerCacheTest();
+//        test.compareNumber();
+//        IntegerCacheTest.cache();
 
         // chapter6
 //        var test = new LambdaTest();
@@ -58,5 +59,7 @@ public class Test {
 //        CipherLoader.test();
 
 //        ProxyTest.test();
+
+        // chapter8
     }
 }
