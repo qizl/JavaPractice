@@ -1,8 +1,5 @@
 package corejavavolumn1.chapter8;
 
-import javax.swing.text.StyledEditorKit;
-import javax.xml.transform.sax.SAXTransformerFactory;
-
 /**
  * description: add a description
  *

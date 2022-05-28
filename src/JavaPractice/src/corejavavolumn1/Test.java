@@ -1,17 +1,9 @@
 package corejavavolumn1;
 
-import corejavavolumn1.chapter3.IntegerCacheTest;
-import corejavavolumn1.chapter6.LambdaTest;
-import corejavavolumn1.chapter6.TalkingClock;
-import corejavavolumn1.chapter6.proxy.ProxyTest;
-import corejavavolumn1.chapter6.serviceLoader.Cipher;
-import corejavavolumn1.chapter6.serviceLoader.CipherLoader;
 import corejavavolumn1.chapter8.ArrayAlg;
 import corejavavolumn1.chapter8.Pair;
 
 import java.time.LocalDate;
-import java.util.Scanner;
-import java.util.ServiceLoader;
 
 /**
  * description: add a description
